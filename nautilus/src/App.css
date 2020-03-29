@@ -13,35 +13,33 @@ font-family: 'Roboto', sans-serif; */
 .App {
   text-align: center;
 }
-
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  background-color: white;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start; 
+  flex-wrap: wrap;
+}
+.image{
+  padding:75px;
+}
+/* #img1{
+  height: 50px;
+  width: 70px;
+  margin:20px;
+  /* padding: 10px; */
+/* } */
+
+/* .image{
+  max-width:70%;
+} */
+/* #img1, #img2, #img3{
+  height:50px;
+  width:50px;
+} */
+/* #img1{
+ 
+    flex: 1 1 auto;
+    margin: 5px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Reference: https://www.sketchingwithcss.com/samplechapter/cheatsheet.html */
