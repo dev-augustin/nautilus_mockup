@@ -1,6 +1,7 @@
-### nautilius mockup
+## nautilius mockup
 
-#### Objective
+### Objective
  Create nautilus mockup page
 
-#### Wireframe
+### Wireframe
+
