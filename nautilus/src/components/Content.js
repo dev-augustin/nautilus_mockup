@@ -1,19 +1,26 @@
 import React from 'react';
-//import assets from '../assets/aging.png';
+import bioImg from '../assets/bio_and_beyond.jpeg';
+import wise_sciImg from '../assets/wise_sci_and_engineering.png';
+import tlas from '../assets/tlas.jpeg';
+import abstract from '../assets/abstractions.jpeg';
+import earth from '../assets/earth.jpeg'
+
+import poetry from '../assets/poetry.jpeg';
+
 function Content(){
     return(
-        <React.Fragment>
+        <React.Fragment> 
             <div class="container">
-                <div class="image1">Hi</div>
-                <div class="image2">Hello </div>
-                <div class="image3">Hi </div>
-                <div class="image4"></div>
-                <div class="image5"></div>
-                <div class="image6"></div>
-                <div class="image7"></div> 
-                <div class="image8"></div>
+                <div class="image"><img src={bioImg} alt="ima"/></div>
+                <div class="image"><img src={wise_sciImg} alt="sdfsd" /> </div>
+                <div class="image"><img src={abstract} alt="sdf"/> </div>
+                <div class="image"><img src={earth} alt="sdf"/></div>
+                <div class="image"><img src={tlas} alt="sdf"/></div>
                 <div class="image"></div>
-                <div class="image10"></div>
+                <div class="image"><img src={poetry} alt="sdf"/></div> 
+                <div class="image"></div>
+                <div class="image"></div>
+                <div class="image"></div>
             </div>
         </React.Fragment>
 );
