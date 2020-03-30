@@ -33,7 +33,16 @@ font-size:large;
 text-align: left;
 }
 
-.image3, .image6,.image9{
+/* h5{
+  padding-top: 5px;
+} */
+.image3, .image6{
+  padding-left: 30px;
+  padding-bottom: 0px;
+  /* padding-top: 10px; */
+}
+
+.image9{
   padding-left: 30px;
 }
 .image2, .image5, .image8{
