@@ -11,7 +11,7 @@ function Header(){
     return(
             <div>
                 <h1 id="channel"> Channels</h1>
-                <h3>TUNE IN TO NAUTILUS DEEP DIVE PORTALS</h3>         
+                <h3 id="tuneIn" style={{textAlign:'center'}}>TUNE IN TO NAUTILUS DEEP DIVE PORTALS</h3>         
             </div>    
           );
     }     
